@@ -28,6 +28,15 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+# 邮件设置
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = '25'
+EMAIL_HOST_USER = 'guofeng_1997@163.com'
+EMAIL_HOST_PASSWORD = 'guofeng1997'
+EMAIL_USER_TLS = True
+EMAIL_USER_SSL = False
+
+
 # Application definition
 
 INSTALLED_APPS = [
