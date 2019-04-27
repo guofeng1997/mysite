@@ -1,0 +1,1 @@
+django_taggit==1.1.0
